@@ -1,0 +1,1064 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-08-16T19:16:24.000Z",
+            "ImageId": "ami-006b2db4ca7e39d7d",
+            "ImageLocation": "309956199498/RHEL-7.6_HVM_BETA-20180814-x86_64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-048219192ccf464d8",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.6_HVM_BETA-20180814-x86_64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "arm64",
+            "CreationDate": "2018-11-22T23:36:51.000Z",
+            "ImageId": "ami-0302c1ecc74930ba5",
+            "ImageLocation": "309956199498/RHEL-7.6_HVM_GA-20181122-arm64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01d14a8a3305defdd",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.6_HVM_GA-20181122-arm64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-03-23T20:40:52.000Z",
+            "ImageId": "ami-03291866",
+            "ImageLocation": "309956199498/RHEL-7.5_HVM_GA-20180322-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0cf126c0e00af0cb4",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.5_HVM_GA-20180322-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-08-15T15:12:47.000Z",
+            "ImageId": "ami-0376bbf9be9eac670",
+            "ImageLocation": "309956199498/RHEL-7.5_HVM-20180813-x86_64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0780ad2c8cf44b9f3",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.5_HVM-20180813-x86_64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-04-19T18:50:17.000Z",
+            "ImageId": "ami-03c6f566",
+            "ImageLocation": "309956199498/RHEL-6.10_HVM_Beta-20180418-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01e2de73f964a9dcc",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.10_HVM_Beta-20180418-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "arm64",
+            "CreationDate": "2019-01-17T19:13:31.000Z",
+            "ImageId": "ami-05be2f77761145991",
+            "ImageLocation": "309956199498/RHEL-8.0.0_HVM_BETA-20190117-arm64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0eb9272a5a0706e1f",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-8.0.0_HVM_BETA-20190117-arm64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-01-03T15:51:33.000Z",
+            "ImageId": "ami-05ecb660",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM_Beta-20161219-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0eef1a8b28e656e7a",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM_Beta-20161219-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-26T22:22:11.000Z",
+            "ImageId": "ami-0932686c",
+            "ImageLocation": "309956199498/RHEL-7.3_HVM_GA-20161026-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-054ac7c11237d8831",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.3_HVM_GA-20161026-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-08-10T21:01:56.000Z",
+            "ImageId": "ami-09ef84c7cb9323838",
+            "ImageLocation": "309956199498/RHEL-6.10_HVM_GA-20180810-x86_64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0589232d26b737289",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": false,
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.10_HVM_GA-20180810-x86_64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-25T21:03:24.000Z",
+            "ImageId": "ami-0a33696f",
+            "ImageLocation": "309956199498/RHEL-7.2_HVM-20161025-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-03f40630bc88ad2b4",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.2_HVM-20161025-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-11-13T20:48:58.000Z",
+            "ImageId": "ami-0ae10902655ba4447",
+            "ImageLocation": "309956199498/RHEL-8.0_HVM_BETA-20181113-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-04df004f9733b572e",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-8.0_HVM_BETA-20181113-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-01-04T01:52:55.000Z",
+            "ImageId": "ami-0b1e356e",
+            "ImageLocation": "309956199498/RHEL-7.4_HVM-20180103-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-03723f9ebe245c0e1",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.4_HVM-20180103-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-10-17T13:08:34.000Z",
+            "ImageId": "ami-0b500ef59d8335eee",
+            "ImageLocation": "309956199498/RHEL-7.6_HVM_GA-20181017-x86_64-0-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0574c464fbced03cc",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.6_HVM_GA-20181017-x86_64-0-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-06-14T20:52:22.000Z",
+            "ImageId": "ami-10aa8c75",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20170613-x86_64-3-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-056ec90959164105f",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20170613-x86_64-3-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-06-14T20:57:17.000Z",
+            "ImageId": "ami-11aa8c74",
+            "ImageLocation": "309956199498/RHEL-7.3_HVM-20170613-x86_64-4-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0efc0315553272d58",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.3_HVM-20170613-x86_64-4-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-10-24T16:06:57.000Z",
+            "ImageId": "ami-11bc9074",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20171024-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-018afd778eaacf6c7",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20171024-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-06-06T22:03:20.000Z",
+            "ImageId": "ami-16a99673",
+            "ImageLocation": "309956199498/RHEL-6.10_HVM_GA-20180606-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0e2ce868a32526b80",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.10_HVM_GA-20180606-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-05-15T14:45:38.000Z",
+            "ImageId": "ami-21d8ff44",
+            "ImageLocation": "309956199498/RHEL-7.3_HVM-20170424-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0a9effb14accdbc27",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.3_HVM-20170424-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-05-15T14:44:15.000Z",
+            "ImageId": "ami-6adafd0f",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20170424-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0b0b29ae2c90bc537",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20170424-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-13T20:08:12.000Z",
+            "ImageId": "ami-90164cf5",
+            "ImageLocation": "309956199498/RHEL-6.8_HVM_GA-20160503-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0c0893c34b6c2ad01",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.8_HVM_GA-20160503-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-01-18T21:24:37.000Z",
+            "ImageId": "ami-90e6ccf5",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20180118-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-055d5a8ff08563dd7",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20180118-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-13T20:52:42.000Z",
+            "ImageId": "ami-96164cf3",
+            "ImageLocation": "309956199498/RHEL-7.1_HVM-20150803-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0abf7962ea6991305",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.1_HVM-20150803-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-06T20:04:22.000Z",
+            "ImageId": "ami-97ecb7f2",
+            "ImageLocation": "309956199498/RHEL-7.3_HVM_RC1-20161005-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0718fb14906404c0d",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.3_HVM_RC1-20161005-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-01-04T02:21:48.000Z",
+            "ImageId": "ami-981e35fd",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20180103-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-000ffbac82721a925",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20180103-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-09-30T21:23:54.000Z",
+            "ImageId": "ami-a9f2a9cc",
+            "ImageLocation": "309956199498/RHEL-6.6_HVM_GA-20150601-x86_64-3-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0a2cf652181a4c938",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.6_HVM_GA-20150601-x86_64-3-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-10-26T19:51:00.000Z",
+            "ImageId": "ami-af3268ca",
+            "ImageLocation": "309956199498/RHEL-6.8_HVM-20161026-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0545331825651c307",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.8_HVM-20161026-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2016-09-30T23:54:22.000Z",
+            "ImageId": "ami-aff2a9ca",
+            "ImageLocation": "309956199498/RHEL-6.7_HVM-20160412-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-04568f06b3f15c0f4",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.7_HVM-20160412-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-05-22T20:52:15.000Z",
+            "ImageId": "ami-affcc0ca",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20180522-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01cf14d738f396998",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20180522-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-04-24T15:15:50.000Z",
+            "ImageId": "ami-b8496edd",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM-20170424-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-04a9a818010e789ae",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM-20170424-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-01-22T17:26:18.000Z",
+            "ImageId": "ami-cebe94ab",
+            "ImageLocation": "309956199498/RHEL-7.4_HVM-20180122-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0feef5cb2e6bc64aa",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.4_HVM-20180122-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-08-08T15:35:03.000Z",
+            "ImageId": "ami-cfdafaaa",
+            "ImageLocation": "309956199498/RHEL-7.4_HVM_GA-20170808-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0b1f8afb77acc54c0",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.4_HVM_GA-20170808-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-07-24T15:40:37.000Z",
+            "ImageId": "ami-e4537381",
+            "ImageLocation": "309956199498/RHEL-7.4_HVM_GA-20170724-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-06e80d07a625b353d",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.4_HVM_GA-20170724-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-05-18T18:18:19.000Z",
+            "ImageId": "ami-e4b99e81",
+            "ImageLocation": "309956199498/RHEL-7.4_HVM_Beta-20170518-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-06abf07bc70830fbb",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.4_HVM_Beta-20170518-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2018-01-23T02:36:49.000Z",
+            "ImageId": "ami-f3b79d96",
+            "ImageLocation": "309956199498/RHEL-7.5_Beta_HVM-20180116-x86_64-2-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-01276a5af23cd8c98",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.5_Beta_HVM-20180116-x86_64-2-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-04-25T00:31:41.000Z",
+            "ImageId": "ami-f857709d",
+            "ImageLocation": "309956199498/RHEL-7.3_HVM-20170424-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-028b0a81b492bffbd",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-7.3_HVM-20170424-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2017-03-20T02:16:32.000Z",
+            "ImageId": "ami-fa280c9f",
+            "ImageLocation": "309956199498/RHEL-6.9_HVM_GA-20170319-x86_64-1-Hourly2-GP2",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "309956199498",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0756bea20fcbfe72c",
+                        "VolumeSize": 10,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "Description": "Provided by Red Hat, Inc.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "Name": "RHEL-6.9_HVM_GA-20170319-x86_64-1-Hourly2-GP2",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        }
+    ]
+}
