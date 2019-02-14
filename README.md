@@ -37,3 +37,23 @@ OWNERLIST=$(for owner in $(cat trusted_image_owners.log | awk '{print $3}'); do 
 ```bash
 for region in $(aws ec2 describe-regions | grep RegionName | awk '{print $2}'); do echo -n "rhel_7.4_${region//\"} = "; jq '.Images[] | select(.Name =="RHEL-7.4_HVM-20180103-x86_64-2-Hourly2-GP2") | .ImageId' describe-images.${region//\"}.log; done
 ```
+
+5. Output
+
+```
+rhel_7.4_eu-north-1 = rhel_7.4_ap-south-1 = "ami-e60e5a89"
+rhel_7.4_eu-west-3 = "ami-dc13a4a1"
+rhel_7.4_eu-west-2 = "ami-c1d2caa5"
+rhel_7.4_eu-west-1 = "ami-c90195b0"
+rhel_7.4_ap-northeast-2 = "ami-26f75748"
+rhel_7.4_ap-northeast-1 = "ami-eb50cd8d"
+rhel_7.4_sa-east-1 = "ami-0e88cb62"
+rhel_7.4_ca-central-1 = "ami-c1cb4ea5"
+rhel_7.4_ap-southeast-1 = "ami-5ae89f26"
+rhel_7.4_ap-southeast-2 = "ami-1987757b"
+rhel_7.4_eu-central-1 = "ami-194cdc76"
+rhel_7.4_us-east-1 = "ami-26ebbc5c"
+rhel_7.4_us-east-2 = "ami-0b1e356e"
+rhel_7.4_us-west-1 = "ami-77a2a317"
+rhel_7.4_us-west-2 = "ami-223f945a"
+```
