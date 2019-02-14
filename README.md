@@ -57,3 +57,7 @@ rhel_7.4_us-east-2 = "ami-0b1e356e"
 rhel_7.4_us-west-1 = "ami-77a2a317"
 rhel_7.4_us-west-2 = "ami-223f945a"
 ```
+
+# Uses
+
+This repo is meant for simply back of the hand request as a workaround to retrieving all AMIs by a region.
